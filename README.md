@@ -5,9 +5,8 @@
 ### Templates
 ###### A Directory of all my Template Code
 
--    [x] setup directory
-
--    [ ] add remaining template concepts
--    [ ] improve templates
--    [ ] do template based project
+- &nbsp;&nbsp;&nbsp;[x] setup directory
+- &nbsp;&nbsp;&nbsp;[ ] add remaining template concepts
+- &nbsp;&nbsp;&nbsp;[ ] improve templates
+- &nbsp;&nbsp;&nbsp;[ ] do template based project
 
