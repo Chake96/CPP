@@ -1,0 +1,3 @@
+/home/chake/C++/hacker_rank/practice/data_structures/stack/CMakeFiles/rebuild_cache.dir
+/home/chake/C++/hacker_rank/practice/data_structures/stack/CMakeFiles/runTests.dir
+/home/chake/C++/hacker_rank/practice/data_structures/stack/CMakeFiles/edit_cache.dir

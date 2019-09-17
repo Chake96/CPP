@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chake/C++/hacker_rank/practice/data_structures/queue/google_testing.cpp
+gtest/gtest.h
+-
+queue.h
+/home/chake/C++/hacker_rank/practice/data_structures/queue/queue.h
+
+/home/chake/C++/hacker_rank/practice/data_structures/queue/node.h
+ostream
+-
+memory
+-
+
+/home/chake/C++/hacker_rank/practice/data_structures/queue/queue.h
+node.h
+/home/chake/C++/hacker_rank/practice/data_structures/queue/node.h
+
