@@ -7,6 +7,7 @@
 # Repo To-Do
 - [ ] setup working branches for each subdirectory
 - [ ] touch-up repo (upstream, workflow, ect.)
+- [ ] add google testing to all work
 
 ### Templates
 
@@ -22,3 +23,10 @@
 ## Competitions and Challenges
 ### LeetCode.com -- Username: \_Cake\_
 - [x] Two sum challenge 
+
+
+## Data structures
+ - Queue
+ - Singly Linked List
+ - Stack
+
