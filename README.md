@@ -20,5 +20,5 @@
 -   [ ] do template based project
 
 ## Competitions and Challenges
-### LeetCode.com -- Username: \\_Cake\\_
+### LeetCode.com -- Username: \_Cake\_
 - [x] Two sum challenge 
