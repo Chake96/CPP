@@ -1,0 +1,14 @@
+<h1>Ternary Search Tree</h1>
+
+Compiler -- G++ w/C++14 standard
+
+
+This data structure combines the time efficiency of tries with the space efficiency of binary search trees. 
+
+This data structure is good for storing strings and larger datasets when compared to other tree based search data-structures.
+
+--Complexities-- [worst->best]
+Search/Insert/Delete: O(n) -> O(log n)
+
+
+is this a super over-engineered solution to a simple datastructure? probably...but I had fun and thats all that matters
