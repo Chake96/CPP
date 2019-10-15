@@ -18,8 +18,6 @@
 
 -  [ ] improve templates (*in progress*)
 
--   [ ] do template based project
-
 ## Competitions and Challenges
 ### LeetCode.com -- Username: \_Cake\_
 - [x] Two sum challenge 
@@ -29,4 +27,4 @@
  - Queue
  - Singly Linked List
  - Stack
-
+ - Ternary Search Tree

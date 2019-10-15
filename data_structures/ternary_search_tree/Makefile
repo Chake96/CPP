@@ -9,10 +9,11 @@ STDV = std=c++14 #compile with c++14 standard
 CFLAGS = -$(STDV) -g -Wall -fstack-protector -pipe -O2 -D_GLIBCXX_ASSERTIONS
 
 all: tst
-tst: main.o tst.o
-	$(CC) -o tst main.o tst.o 
 
-main.o: main.cpp tst.o
+tst: main.o tst.o
+	$(CC) -o main.o tst.o 
+
+main.o: main.cpp 
 	$(CC) -c main.cpp $(CFLAGS)
 
 tst.o: tst.cpp tst.h
