@@ -14,6 +14,9 @@ typedef struct node{
 	bool end_word = false;
 	std::shared_ptr<node> head;
 	std::shared_ptr<node> lft_tail, rght_tail, mid_tail;
+
+	node();
+	node(const char& in_lttr): letter(in_lttr){};
 }Node;
 
 

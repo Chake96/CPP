@@ -13,7 +13,9 @@ int main(int argc, char**argv){
 	try{
 		std::string input = argv[1];
 		std::cout << "Inputted Word: " << input << std::endl;
-		std::unique_ptr<tsTree> tree(new tsTree(input));			
+		std::unique_ptr<tsTree> tree(new tsTree());
+		tree->print();
+		tree->insert_word(input);
 		tree->print();
 	}catch(... ){
 		std::cerr << "Error: " << ' ' << std::endl; 
