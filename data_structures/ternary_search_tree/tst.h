@@ -25,10 +25,9 @@ class tsTree{
 		tsTree();
 		tsTree(std::string word);
 		
-		void insert_word(const std::string& word);
-		void delete_word(std::string word);
+		void insert_word(std::string& word);
 		std::string search(std::string);
-
+		void print();
 };
 
 
