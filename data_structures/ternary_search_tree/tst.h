@@ -9,15 +9,17 @@
 
 
 //simple node struct, represents a letter in a word, end_word is true if the node is the end of a word
-typedef struct node{
+
+typedef struct Node{
 	char letter;
 	bool end_word = false;
-	std::shared_ptr<node> head;
-	std::shared_ptr<node> lft_tail, rght_tail, mid_tail;
+	struct Node* head;
+	struct Node* lft_tail;
+	struct Node* rght_tail; 
+	struct Node* mid_tail;
 
-	node();
-	node(const char& in_lttr): letter(in_lttr){};
-}Node;
+	Node(const char& in_lttr):letter(in_lttr){}; //initalize node with a value
+};
 
 
 class tsTree{
