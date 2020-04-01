@@ -12,11 +12,9 @@
 ### Templates
 
 ###### A Directory of all my Template Code
- -  [x] setup directory 
-
 -  [ ] add remaining template concepts
 
--  [ ] improve templates (*in progress*)
+-  [ ] improve templates 
 
 ## Competitions and Challenges
 ### LeetCode.com -- Username: \_Cake\_
@@ -28,3 +26,7 @@
  - Singly Linked List
  - Stack
  - Ternary Search Tree
+
+
+## Algorithms
+- AI : A Directory for Implementation from Artifical Intelligence: A Modern Approach
