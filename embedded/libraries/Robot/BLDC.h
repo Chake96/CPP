@@ -5,7 +5,7 @@
 #define _BLDC_H
 
 template <typename motor_unit = uint8_t>
-class BLDC:public Motor<motor_unit> {
+class BLDC final:public Motor<motor_unit> {
 
 	private:
 		static constexpr uint8_t default_half_power = 150U;
@@ -77,7 +77,8 @@ bool BLDC<motor_unit>::toggle_reverse() {
 	}
 	digitalWrite(this->get_reverse_pin(), HIGH);                                                                      
 	this->reversed = !this->reversed;
-	delay(100);
+	unsigned long current_time = millis(), start_time = millis(), WAIT_TIME = 1000UL;
+	while(current_time - start_time < WAIT_TIME); //motors need 1 second to trigger reverse
 	return this->reversed;
 }
 
