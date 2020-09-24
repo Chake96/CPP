@@ -1,0 +1,3 @@
+[submodule "CUDA/cuda_basics"]
+	path = CUDA/cuda_basics
+	url = /mnt/c/Users/Carson/Source/Repos/cuda_basics
