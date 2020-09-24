@@ -1,0 +1,24 @@
+﻿  Compiling CUDA source file kernel.cu...
+  Compiling CUDA source file vector_add.cu...
+  
+  C:\Users\Carson\Source\Repos\cuda_basics\cuda_basics>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\src\vcpkg\installed\x64-windows\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Carson\Source\Repos\cuda_basics\cuda_basics\kernel.cu" 
+  
+  C:\Users\Carson\Source\Repos\cuda_basics\cuda_basics>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\src\vcpkg\installed\x64-windows\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\vector_add.cu.obj "C:\Users\Carson\Source\Repos\cuda_basics\cuda_basics\vector_add.cu" 
+  vector_add.cu
+  kernel.cu
+C:/Users/Carson/Source/Repos/cuda_basics/cuda_basics/kernel.cu(21): warning C4267: '=': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  C:/Users/Carson/Source/Repos/cuda_basics/cuda_basics/kernel.cu(32): note: see reference to function template instantiation 'void make_some_arrays<int>(T *,T *,size_t)' being compiled
+          with
+          [
+              T=int
+          ]
+C:/Users/Carson/Source/Repos/cuda_basics/cuda_basics/kernel.cu(22): warning C4267: '=': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  cuda_basics.vcxproj -> C:\Users\Carson\Source\Repos\cuda_basics\x64\Debug\cuda_basics.exe
