@@ -1,0 +1,1 @@
+The purpose of this directory is to demonstrate fast and small memory manipulations of vectors of chars

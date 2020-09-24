@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chake/C++/hacker_rank/practice/data_structures/LL.h
+cstddef
+-
+Node.h
+/home/chake/C++/hacker_rank/practice/data_structures/Node.h
+iostream
+-
+
+/home/chake/C++/hacker_rank/practice/data_structures/Node.h
+ostream
+-
+
+/home/chake/C++/hacker_rank/practice/data_structures/testing.cpp
+LL.h
+/home/chake/C++/hacker_rank/practice/data_structures/LL.h
+gtest/gtest.h
+-
+
