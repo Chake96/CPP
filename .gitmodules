@@ -3,4 +3,4 @@
 	url = /mnt/c/Users/Carson/Source/Repos/cuda_basics
 [submodule "ASIO"]
 	path = ASIO
-	url = /mnt/c/Users/Carson/Programming/win_cpp/ASIO
+	url = https://github.com/Chake96/asio
