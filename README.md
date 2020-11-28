@@ -9,6 +9,11 @@
 - [ ] touch-up repo (upstream, workflow, ect.)
 - [ ] add google testing to all work
 
+### ASIO
+###### a barebones networking framework built around Boost::ASIO
+- Current Task: developing framework
+- Future Task: Internal Packet Sniffer and Network Data Collector
+- Goal Task: Build DMZ and Router Setup with Internal ML Based Security Protocols built on collected data
 ### Templates
 
 ###### A Directory of all my Template Code
@@ -17,8 +22,9 @@
 -  [ ] improve templates 
 
 ## Competitions and Challenges
-### LeetCode.com -- Username: \_Cake\_
-- [x] Two sum challenge 
+### LeetCode.com
+- [x] Two sum challenge
+- [x] Print in Order challenge
 
 
 ## Data structures
